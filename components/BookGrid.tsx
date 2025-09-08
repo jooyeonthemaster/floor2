@@ -81,10 +81,6 @@ export function BookGrid({ books }: BookGridProps) {
                       <span>29 DIGITAL EXPERIENCES</span>
                     </div>
                     <div className="hidden md:block w-px h-4 bg-black/30" />
-                    <div className="flex items-center gap-2">
-                      <div className="w-3 h-3 border border-black/30 bg-black/10 animate-pulse" style={{ animationDelay: '0.5s' }} />
-                      <span>3D AUDIO VISUALIZATION</span>
-                    </div>
                     <div className="hidden md:block w-px h-4 bg-black/30" />
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 border border-black/30 bg-black/10 animate-pulse" style={{ animationDelay: '1s' }} />
@@ -93,19 +89,6 @@ export function BookGrid({ books }: BookGridProps) {
                   </motion.div>
                 </div>
                 
-                {/* Command Line Interface Style */}
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.8, delay: 1.2 }}
-                  className="bg-black/5 border border-black/20 backdrop-blur-sm p-6 font-mono text-sm max-w-2xl mx-auto mb-12"
-                >
-                  <div className="text-black/60 mb-2">$ system.status --interface</div>
-                  <div className="text-black/80">→ 3D rendering: ACTIVE</div>
-                  <div className="text-black/80">→ audio systems: READY</div>
-                  <div className="text-black/80">→ interaction layer: ENABLED</div>
-                  <div className="text-green-600 mt-2">◉ all systems operational</div>
-                </motion.div>
               </div>
             </motion.div>
 
