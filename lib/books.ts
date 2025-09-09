@@ -293,10 +293,10 @@ export const books: Book[] = [
   },
   {
     id: 29,
-    title: "속눈썹 습지",
+    title: "적절한 세계의 적절할 수밖에 없는 나",
     author: "후즈키 유미",
-    coverImage: "/images/bookcover/후즈키 유미_속눈썹 습지.jpg",
-    audioFile: "/audio/후즈키 유미_속눈썹 습지.mp3",
+    coverImage: "/images/bookcover/후즈키 유미_적절한 세계의 적절할 수밖에 없는 나.jpg",
+    audioFile: "/audio/적절한 세계의 적절할 수밖에 없는 나.mp3",
     description: "은밀하고 축축한 감정의 늪지대",
     genre: "일본문학",
     publishedYear: 2023,
