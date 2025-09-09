@@ -300,5 +300,6 @@ export const books: Book[] = [
     description: "은밀하고 축축한 감정의 늪지대",
     genre: "일본문학",
     publishedYear: 2023,
+    showCopyrightPopup: true,
   },
 ];
