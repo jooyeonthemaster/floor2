@@ -66,7 +66,7 @@ export const books: Book[] = [
   {
     id: 7,
     title: "남겨진 자들의 삶",
-    author: "마테오 비앙키",
+    author: "마테오 B. 비앙키",
     coverImage: "/images/bookcover/마테오 비앙키_남겨진 자들의 삶.jpg",
     audioFile: "/audio/남겨진 자들의 삶.mp3",
     description: "재앙 이후 살아남은 자들의 생존기",
@@ -86,7 +86,7 @@ export const books: Book[] = [
   },
   {
     id: 9,
-    title: "미친여자들의 무도회",
+    title: "미친 여자들의 무도회",
     author: "빅토리아 마스",
     coverImage: "/images/bookcover/빅토리아 마스_미친여자들의 무도회.jpg",
     audioFile: "/audio/미친 여자들의 무도회.mp3",
