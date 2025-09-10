@@ -220,7 +220,6 @@ export function BookCard({ book, onPlay, onShowPopup, isCurrentlyPlaying = false
               <div className="w-2 h-2 border border-black/30 bg-green-400 animate-pulse" />
               <span className="font-mono text-xs text-black/50">READY</span>
             </div>
-            <div className="font-mono text-xs text-black/30">ID: {String(book.id).padStart(3, '0')}</div>
           </div>
         </div>
 

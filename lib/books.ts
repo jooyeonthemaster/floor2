@@ -89,7 +89,7 @@ export const books: Book[] = [
     title: "미친여자들의 무도회",
     author: "빅토리아 마스",
     coverImage: "/images/bookcover/빅토리아 마스_미친여자들의 무도회.jpg",
-    audioFile: "/audio/미친여자들의 무도회.mp3",
+    audioFile: "/audio/미친 여자들의 무도회.mp3",
     description: "여성들의 광기와 자유에 대한 역사적 탐구",
     genre: "역사소설",
     publishedYear: 2023,
